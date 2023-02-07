@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "earnapp-data-fetcher"
+version = "0.1.0"
+description = ""
+authors = ["Valter Nepomuceno <valter.nep@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyearnapp = "^0.0.16.1"
+python-dotenv = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
